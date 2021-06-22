@@ -1,0 +1,11 @@
+framework module Qverifier {
+  umbrella header "Qverifier.h"
+
+  export *
+  module * { export * }
+}
+
+module Qverifier.Swift {
+    header "Qverifier-Swift.h"
+    requires objc
+}
